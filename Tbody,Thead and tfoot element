@@ -1,0 +1,60 @@
+<!--the <tbody> tag is used to group the body content in an HTML table.
+    The <tbody> element is used in cinjunction with the <thead> and <tfoot> elements to specify each part of a table such as body,header and Footer.-->
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Tbody,Thead and tfoot element</title>
+    </head>
+    <style>
+        table,th,td{
+            border:1px solid black;
+        }
+        thead{color:red;}
+        tbody{color:green;}
+        tfoot{color:blue;}
+    </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>RollNo</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>AAA</td>
+                    <td>Pune</td>
+                    <td>78</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>BBB</td>
+                    <td>Mumbai</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>CCC</td>
+                    <td>Banglore</td>
+                    <td>97</td>
+                </tr>
+                <tr>
+                </tbody>
+                <tfoot>
+                <td>4</td>
+                <td>DDD</td>
+                <td>Hyderabad</td>
+                <td>84</td>
+                </tr>
+
+                </tfoot> 
+                
+            
+        </table>
+    </body>
+</html>
